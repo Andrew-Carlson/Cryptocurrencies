@@ -15,9 +15,14 @@ More detailed review of steps taken in this analysis:
 **Figure 1:** Elbow curve to find that K=4 was best for KMeans model.<br/><br/>
 ![elbow](./images/elbow.png)<br/><br/>
 
-**Figure 2:** 3D scatter plot showing data clusters found using KMeans algorithm according to the top three features which were found using PCA.<br/><br/>
+**Figure 2:** plotly.express 3D scatter plot showing data clusters found using KMeans algorithm according to the top three features which were found using PCA.<br/><br/>
 
 ![clusters](./images/clusters.png)<br/><br/>
 
 **Figure 3:** Sample from hvplot table created showing some of the crytocurrencies used, some relevant information, and the class (cluster number) that they were assigned. <br/><br/>
-![table](./images/table.png)
+
+![table](./images/table.png)<br/><br/>
+
+**Figure 4:** hvplot 2D scatter plot of total coin supply versus the total coins mined with the different data clusters color-coded.<br/><br/>
+
+![scatter](./images/scatterplot.png)<br/><br/>
